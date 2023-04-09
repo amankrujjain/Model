@@ -1,54 +1,63 @@
 import React from "react";
 import Filter from "./Filter";
 import ProductData from "./ProductData";
+import Pic1 from '../assets/images/pic1.jpg'
+import Pic2 from '../assets/images/pic2.webp'
+import Pic3 from '../assets/images/pic3.jpg'
+import Pic4 from '../assets/images/p4.jpg'
+import Pic5 from '../assets/images/pic5.jpg'
+import Pic6 from '../assets/images/pic6.jpg'
+import Pic7 from '../assets/images/pic7.jpg'
+import Pic8 from '../assets/images/pic8.jpg'
+
 
 const ProductCard = () => {
     const cloths = [{
         id: 1,
         name: 'Red Gucci Floral Dress',
-        pic: 'https://i.ibb.co/HqmJYgW/gs-Kd-Pc-Iye-Gg.png',
+        pic: Pic1,
         price: "₹ 2000"
     },
     {
         id: 2,
         name: 'White Adidas Floral Dress',
-        pic: 'https://i.ibb.co/m6V0MzR/gs-Kd-Pc-Iye-Gg-1.png',
+        pic: Pic2,
         price: "₹ 1000"
     },
     {
         id: 3,
         name: 'White Adidas Floral Dress',
-        pic: 'https://i.ibb.co/6g1KhhF/pexels-django-li-2956641-1.png',
+        pic: Pic3,
         price: "₹ 1000"
     },
     {
         id: 4,
         name: 'White Adidas Floral Dress',
-        pic: 'https://i.ibb.co/KLDN7Vt/gbarkz-vq-Knu-G8-Ga-Qc-unsplash.png',
+        pic: Pic4,
         price: "₹ 1000"
     },
     {
         id: 5,
         name: 'White Adidas Floral Dress',
-        pic: 'https://i.ibb.co/5vxgf7V/pexels-quang-anh-ha-nguyen-884979-1.png',
+        pic: Pic5,
         price: "₹ 1000"
     },
     {
         id: 6,
         name: 'White Adidas Floral Dress',
-        pic: 'https://i.ibb.co/HKFXSrQ/pietra-schwarzler-l-SLq-x-Qd-FNI-unsplash.png',
+        pic: Pic6,
         price: "₹ 1000"
     },
     {
         id: 7,
         name: 'White Adidas Floral Dress',
-        pic: 'https://i.ibb.co/BKsqym2/tracey-hocking-ve-Zp-XKU71c-unsplash.png',
+        pic: Pic7,
         price: "₹ 1000"
     },
     {
         id: 8,
         name: 'White Adidas Floral Dress',
-        pic: 'https://i.ibb.co/mbrk1DK/pexels-h-i-nguy-n-4034532.png',
+        pic: Pic8,
         price: "₹ 1000"
     }
 

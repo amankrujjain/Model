@@ -10,7 +10,7 @@ function ProductData(props) {
                         </div>
                         <div className=" relative group">
                             <div className=" flex justify-center items-center opacity-0 bg-gradient-to-t from-gray-800 via-gray-800 to-opacity-30 group-hover:opacity-50 absolute top-0 left-0 h-full w-full"></div>
-                            <img className=" w-full" src={props.pic} alt="A girl Posing Img" />
+                            <img style={{height:'600px'}} className=" w-full" src={props.pic} alt="A girl Posing Img" />
                             <div className=" absolute bottom-0 p-8 w-full opacity-0 group-hover:opacity-100">
                                <button className=" font-medium text-base leading-4 text-gray-800 bg-white py-3 w-full">Cart</button>
                                <Link to='/product'><button className=" bg-transparent font-medium text-base leading-4 border-2 border-white py-3 w-full mt-2 text-white">Quick View</button></Link>
