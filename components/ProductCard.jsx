@@ -9,7 +9,7 @@ import Pic5 from '../assets/images/pic5.jpg'
 import Pic6 from '../assets/images/pic6.jpg'
 import Pic7 from '../assets/images/pic7.jpg'
 import Pic8 from '../assets/images/pic8.jpg'
-import Product from "./Product";
+
 
 
 const ProductCard = () => {
