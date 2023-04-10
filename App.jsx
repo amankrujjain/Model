@@ -1,14 +1,7 @@
 import "./App.css";
 import Sidebar from "./components/Sidebar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { AboutUs, OurAim, OurVision } from "./pages/AboutUs";
-import {
-Services,
-ServicesOne,
-ServicesTwo,
-ServicesThree,
-} from "./pages/Services";
-import Events from "./pages/Events";
+import AboutUs from "./pages/AboutUs";
 import Contact from "./pages/ContactUs";
 import Support from "./pages/Support";
 import Product from './components/Product'
@@ -23,14 +16,7 @@ return (
 	<Routes>
 		<Route path='/' element={<Home/>} />
 		<Route path='/about-us' element={<AboutUs/>} />
-		<Route path='/about-us/aim' element={<OurAim/>} />
-		<Route path='/about-us/vision' element={<OurVision/>} />
-		<Route path='/services' element={<Services/>} />
-		<Route path='/services/services1' element={<ServicesOne/>} />
-		<Route path='/services/services2' element={<ServicesTwo/>} />
-		<Route path='/services/services3' element={<ServicesThree/>} />
 		<Route path='/contact' element={<Contact/>} />
-		<Route path='/events' element={<Events/>} />
 		<Route path='/support' element={<Support/>} />
     <Route path="/product" element={<Product/>}/>
     <Route path="/productcard" element={<ProductCard/>}/>

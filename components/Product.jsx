@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import pic from '../assets/images/pic1.jpg'
 
 const Product = () => {
     const [color, setColor] = useState("White");
@@ -30,14 +31,14 @@ const Product = () => {
                                 <div className="slider">
                                     <div className="slide-ana flex flex-shrink-0">
                                         <div className={"flex flex-shrink-0 transform " + (slide ? "translate-x-0" : "-translate-x-full")}>
-                                            <img className=" lg:block hidden w-full h-full object-center object-cover" src="https://i.ibb.co/wBknrzK/pexels-monstera-6311641-1-2.png" alt="A girl posing front" />
-                                            <img className=" hidden md:block lg:hidden w-full h-full object-center object-cover" src="https://i.ibb.co/JqhZhhp/pexels-monstera-6311641-1-3.png" alt="A girl posing front" />
-                                            <img className=" block md:hidden w-full h-full object-center object-cover" src="https://i.ibb.co/FXb2RfJ/pexels-dominika-roseclay-5462562-1.png" alt="A girl posing front" />
+                                            <img className=" lg:block hidden w-full h-full object-top object-cover" src={pic} alt="A girl posing front" />
+                                            <img className=" hidden md:block lg:hidden w-full h-full object-top object-cover" src={pic} alt="A girl posing front" />
+                                            <img className=" block md:hidden w-full h-full object-top object-cover" src={pic} alt="A girl posing front" />
                                         </div>
                                         <div className={"flex flex-shrink-0 transform " + (slide ? "translate-x-full" : "translate-x-0")}>
-                                            <img className=" lg:block hidden w-full h-full object-center object-cover" src="https://i.ibb.co/FwRy0WL/pexels-monstera-6311575-2-1.png" alt="A girl posing Back" />
-                                            <img className=" hidden md:block lg:hidden w-full h-full object-center object-cover" src="https://i.ibb.co/k0bJRQk/pexels-monstera-6311575-3-1.png" alt="A girl posing Back" />
-                                            <img className=" block md:hidden w-full h-full object-center object-cover" src="https://i.ibb.co/0f1gRTt/pexels-monstera-6311575-4.png" alt="A girl posing Back" />
+                                            <img className=" lg:block hidden w-full h-full object-top object-cover" src={pic} alt="A girl posing Back" />
+                                            <img className=" hidden md:block lg:hidden w-full h-full object-top object-cover" src={pic} alt="A girl posing Back" />
+                                            <img className=" block md:hidden w-full h-full object-top object-cover" src={pic} alt="A girl posing Back" />
                                         </div>
                                     </div>
                                 </div>

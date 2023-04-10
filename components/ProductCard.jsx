@@ -9,6 +9,7 @@ import Pic5 from '../assets/images/pic5.jpg'
 import Pic6 from '../assets/images/pic6.jpg'
 import Pic7 from '../assets/images/pic7.jpg'
 import Pic8 from '../assets/images/pic8.jpg'
+import Product from "./Product";
 
 
 const ProductCard = () => {
@@ -68,7 +69,6 @@ const ProductCard = () => {
                 <p className=" w-10/12 mx-auto md:w-full  font-semibold lg:text-4xl text-3xl lg:leading-9 md:leading-7 leading-9 text-center text-gray-800">Summer Collection </p>
             </div>
             <div className=" py-6 lg:px-20 md:px-6 px-4">
-                <p className=" font-normal text-sm leading-3 text-gray-600 ">Home / Shop by Category / Women</p>
                 <hr className=" w-full bg-gray-200 my-6" />
 
                 <div className=" flex justify-between items-center">

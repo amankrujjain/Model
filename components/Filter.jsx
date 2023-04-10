@@ -260,45 +260,6 @@ const Filter = () => {
 
                 <hr className=" bg-gray-200 lg:w-6/12 w-full md:my-10 my-8" />
 
-                {/* Collection Section */}
-
-                <div>
-                    <div className=" flex space-x-2">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g opacity="0.8">
-                                <path d="M9 4H5C4.44772 4 4 4.44772 4 5V9C4 9.55228 4.44772 10 5 10H9C9.55228 10 10 9.55228 10 9V5C10 4.44772 9.55228 4 9 4Z" stroke="#1F2937" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                <path d="M9 14H5C4.44772 14 4 14.4477 4 15V19C4 19.5523 4.44772 20 5 20H9C9.55228 20 10 19.5523 10 19V15C10 14.4477 9.55228 14 9 14Z" stroke="#1F2937" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                <path d="M19 14H15C14.4477 14 14 14.4477 14 15V19C14 19.5523 14.4477 20 15 20H19C19.5523 20 20 19.5523 20 19V15C20 14.4477 19.5523 14 19 14Z" stroke="#1F2937" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                <path d="M14 7H20" stroke="#1F2937" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                <path d="M17 4V10" stroke="#1F2937" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                            </g>
-                        </svg>
-                        <p className=" lg:text-2xl text-xl lg:leading-6 leading-5 font-medium text-gray-800 ">Collection</p>
-                    </div>
-                    <div className=" flex mt-8 space-x-8">
-                        <div className=" flex justify-center items-center">
-                            <input className="w-4 h-4 mr-2" type="checkbox" id="LS" name="luxesignatire" value="LS" checked={luxesignatire} onChange={changeHandler} />
-                            <div className=" inline-block">
-                                <div className=" flex space-x-6 justify-center items-center">
-                                    <label className=" mr-2 text-sm leading-3 font-normal text-gray-600" htmlFor="LS">
-                                        Luxe signature
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                        <div className=" flex justify-center items-center">
-                            <input className="w-4 h-4 mr-2" type="checkbox" id="LxL" name="luxelondon" checked={luxelondon} onChange={changeHandler} value="LxL" />
-                            <div className=" inline-block">
-                                <div className=" flex space-x-6 justify-center items-center">
-                                    <label className=" mr-2 text-sm leading-3 font-normal text-gray-600" htmlFor="LxL">
-                                        Luxe x London
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <div className="px-0 mt-10 w-full md:w-auto md:mt-0 md:absolute md:right-0 md:bottom-0 md:py-10 lg:px-20 md:px-6">
                     <button onClick={applyFilters} className="w-full hover:bg-gray-700 focus:ring focus:ring-offset-2 focus:ring-gray-800 text-base leading-4 font-medium py-4 px-10 text-white bg-gray-800">
                         Apply Filter
